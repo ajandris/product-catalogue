@@ -55,17 +55,44 @@ The Development of this site includes consequently following the stages describe
 
 ## Strategy plane
 **User stories**
-* as a site's visitor
-* as a registered user
-* as an admin
-* as a superuser
+* as a site's visitor I need to
+  * [US-V1] browse all items
+  * [US-V2] have a paginator when there are many items on a page
+  * [US-V3] sort items by categories
+  * [US-V4] filter items by categories
+  * [US-V5] search items and categories by a phrase (classic search)
+  * [US-V6] see item details
+  * [US-V7] have a link to a marketplace to buy a product
+* as a registered user I need to
+  * [US-RU1] be able to do the same a visitor
+  * [US-RU2] have a login page
+  * [US-RU3] have a profile where I can change password and a name
+  * [US-RU4] add product
+  * [US-RU5] update my product
+  * [US-RU6] delete my product
+  * [US-RU7] list my products
+* as an admin I need to
+  * [US-A1] be able to do the same as a registered user
+  * [US-A2] list categories
+  * [US-A3] add category
+  * [US-A4] delete category if there is no product listed on that category
+  * [US-A5] update category name
+* as a superuser I need to
+  * [US-SU1] list all registered users
+  * [US-SU2] grant registered user an admin role
+  * [US-SU3] revoke admin the admin role
+* as a site owner I need to 
+  * [US-SO1] show my skills in front-end and back-end programming
+  * [US-SO2] use PostgreSQL as a database
+  * [US-SO3] use Flask framework
+  * [US-SO4] the site's design, look and functionality follow industry standards.
 
-Site's development is performed using JetBrain's PyCharm IDE, Python version 3.12 and the latest Flask.
-The PostgreSQL v16 is a database for storing data.
+Site's development is performed using JetBrain's PyCharm IDE, Python version 3.12 and Flask version 3.0.3.
+Site uses the database PostgreSQL v16 for storing data.
 Git and GitHub is used for storing code and version control.
 
 ## Scope plane
-
+The user stories above show full functionality of the site. However, due to certain circumstances 
 
 
 
