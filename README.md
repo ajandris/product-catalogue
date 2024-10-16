@@ -36,6 +36,7 @@ A **superuser** can appoint a registered user to admin.
 - PostgreSQL with SQL
 - Git
 - GitHub
+- Grammarly to catch grammar slips and improve the text
 
 ## Intended audience
 
@@ -85,18 +86,47 @@ The Development of this site includes consequently following the stages describe
   * [US-SO1] show my skills in front-end and back-end programming
   * [US-SO2] use PostgreSQL as a database
   * [US-SO3] use Flask framework
-  * [US-SO4] the site's design, look and functionality follow industry standards.
+  * [US-SO4] the site's design, look and functionality follow industry standards
+  * [US-SO5] the site has 404 error page (page not found)
 
 Site's development is performed using JetBrain's PyCharm IDE, Python version 3.12 and Flask version 3.0.3.
 Site uses the database PostgreSQL v16 for storing data.
 Git and GitHub is used for storing code and version control.
 
 ## Scope plane
-The user stories above show full functionality of the site. However, due to certain circumstances 
+The user stories above show full functionality of the site. However, due to certain circumstances user permission 
+functionality can be reduced up to the registered user. 
 
-
+At the end of development will be delivered:
+* Implemented User Stories
+* User Manual as a section in README.md file
+* Development documentation in README.md file, in particular:
+  * Requirements,
+  * Functional specifications,
+  * Testing process in a separate file,
+* Deployment to cPanel hosting.
+* Code and version control using Git and GitHub
 
 # Testing
+Software testing, a crucial step in software development, is the process of evaluating and verifying whether a software application meets its expected requirements and functions correctly, ensuring the end product is of high quality and meets user expectations.
+
+It aims to identify defects, bugs, or missing features in contrast to the specified requirements.
+
+Essentially, it answers two critical questions:
+
+Is the software built the right way? (does the software correctly implement specific functions?)
+Is it the right product? (does the software align with customer requirements or user stories?)
+This project uses manual testing and acceptance testing.
+
+During manual testing, the test operator manually checks if the system works as expected by going through all screens and simulating end-user behaviour. The user interface is also checked for look and feel during this test. In web development, web pages are tested against different screen sizes, browsers, and operation systems.
+
+The functionality of the system can be automated using test scripts. For that purpose, automated tests are used. Automated tests are helpful for large projects to ensure the new functionality does not change old behaviour. They increase testing speed but add extra work for writing them. One of the testing frameworks for JavaScript is Jest. Automated tests are not used for this project as the project has no continuity, and writing tests adds extra work.
+
+Acceptance tests ensure that all user requirements are met. In this project, they are user stories.
+
+The full performed test is in a [separate file](TESTING.md).
+
+# Deployment
 
 # References
 
