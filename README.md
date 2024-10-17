@@ -49,7 +49,7 @@ This part is dedicated to the page's development.
 The Development of this site includes consequently following the stages described in detail in the next sections:
 * Requirements gathering described in Strategy Plane – gathering all requirements to the Site. User Stories belong to this stage. 
 * Scope definition described in Scope Plane – defining what will be included in the first release.
-* The structure plane is introduced at the start of the design, where wireframes are used to create sketches of the pages, and Entity-Relationship Diagrams (ERD) show the database structure.
+* The Structure plane is introduced at the start of the design, where wireframes are used to create sketches of the pages, and Entity-Relationship Diagrams (ERD) show the database structure.
 * The result of a Skeleton plane is the Site’s navigation and detailed database description.
 * The last in Development comes the Surface plane, where all design is completed for various screen sizes and audiences. This plane includes all JavaScript and CRUD functionality.
 * Then comes the Site testing, which is performed manually using Jigsaw (CSS) and W3 Validator (HTML). Google’s Lighthouse test is used to test the site’s performance. JavaScript syntax is tested using Beautify Tools. The database is tested by inserting data using UI and validating inserted and updated data using UI or database tools to read data directly in the database.
@@ -107,6 +107,22 @@ At the end of development will be delivered:
 * Deployment to cPanel hosting.
 * Code and version control using Git and GitHub
 
+## Structure plane
+The structure plane is concerned with design elements – what will be on pages.
+
+**Wireframes** allow seeing what will be on pages. There is no detailed design or colours (in most cases); #
+schematic elements only are placed on a page.
+
+
+
+**Entity-Relationship Diagrams** (ERD) show relationship between [data] entities. It is a starting point of a database design 
+and it affects site's navigation and design.
+
+
+## Skeleton plane
+
+## Surface plane
+
 # Testing
 Software testing, a crucial step in software development, is the process of evaluating and verifying whether a software application meets its expected requirements and functions correctly, ensuring the end product is of high quality and meets user expectations.
 
@@ -124,7 +140,7 @@ The functionality of the system can be automated using test scripts. For that pu
 
 Acceptance tests ensure that all user requirements are met. In this project, they are user stories.
 
-The full performed test is in a [separate file](TESTING.md).
+The full performed test is in a [separate file](/TESTING.md).
 
 # Deployment
 
